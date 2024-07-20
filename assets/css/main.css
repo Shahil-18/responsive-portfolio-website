@@ -3,11 +3,11 @@
   ____________________*/
   --color-primary: #25ab75;
   --color-primary-dark: #208c61;
-  --color-bg-primary: #DCDCDC;
+  --color-bg-primary: #000000;
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
-  --color-white: #ffffff;
-  --color-text: #676767;
+  --color-white: #d9ff03;
+  --color-text: #d2c4c4;
   --color-border: #373737;
 
   /* Font & Typography
@@ -468,8 +468,8 @@ body {
 /* Projects
 --------------------------------------------------------------*/
 .project__content {
-  width: 100%;
-  max-width: 30rem;
+  width: 60%;
+  max-width: 25rem;
   justify-self: center;
 }
 
@@ -516,10 +516,10 @@ body {
 }
 
 .testimonial__img {
-  max-width: 10rem;
-  border-radius: 50%;
+  max-width: 38rem;
+  border-radius: 10%;
   margin: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .testimonial__description {
@@ -555,9 +555,31 @@ body {
 .testimonial__wrapper .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
+/*OUR WEBSITE-----------------*/
+.connect_wrapper {
+  border-top: 1px solid var(--color-border);
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.connect__title {
+  font-size: var(--fs-xxl);
+  margin-bottom: 2rem;
+}
+
+.connect__content {
+  max-width: 45rem;
+  margin: auto;
+}
+
+.connect__description {
+  margin-bottom: 2rem;
+}
+
 
 /* Contact
 --------------------------------------------------------------*/
+
 .contact__wrapper {
   border-top: 1px solid var(--color-border);
   padding-top: 3rem;
